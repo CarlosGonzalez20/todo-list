@@ -1,6 +1,7 @@
 import react from "react";
 import TodoList from "./todo-list";
 import Add from "./add";
+import "./styles/app.css";
 
 class App extends react.Component {
 

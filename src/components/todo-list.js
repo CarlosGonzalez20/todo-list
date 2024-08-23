@@ -3,7 +3,7 @@ import Todo from "./todo";
 
 const TodoList = ({todos}) => {
     return(
-        <div>
+        <div className="list">
             <ul>
                 {todos.map(todo => (<Todo id={todo.id} task={todo.task} />))}
             </ul>
