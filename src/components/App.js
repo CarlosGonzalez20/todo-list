@@ -12,8 +12,8 @@ class App extends react.Component {
         return (
             <div className="App">
                 <h1>To-do List</h1>
-                {/* <TodoList todos={this.state.todos}/>
-                <Add /> */}
+                {/* <TodoList todos={this.state.todos}/> */}
+                <Add />
             </div>
         );
     }
