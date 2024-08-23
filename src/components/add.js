@@ -11,7 +11,8 @@ class Add extends Component {
     };
     handleSubmit = (event) => {
         event.preventDefault();
-
+        this.props.addTodo(this.state.task);
+        this.setState({task: ""});
     };
     render() {
         return (
@@ -20,7 +21,6 @@ class Add extends Component {
                     <input type="text" onChange={this.handleChange} value={this.state.task}></input>
                     <button type ="submit">Add</button>
                 </form>
-                <p>{this.state.task}</p>
             </div>
         );
     }
