@@ -18,11 +18,16 @@ class App extends react.Component {
         })
     }
 
+    deleteTodo = (id) => {
+        const filteredTodos = this.state.todos.filter(todo => todo.id !== id);
+        this.setState({todos: filteredTodos});
+    }
+
     render() {
         return (
             <div className="App">
                 <h1>To-do List</h1>
-                <TodoList todos={this.state.todos}/>
+                <TodoList todos={this.state.todos} deleteTodo={this.deleteTodo}/>
                 <Add addTodo={this.addTodo}/>
             </div>
         );
