@@ -1,37 +1,25 @@
 {
-  // Nombre de la aplicación 
   "short_name": "React App",
   "name": "Create React App Sample",
-
-  // Lista de iconos en diferentes tamaños y formatos.
   "icons": [
     {
       "src": "favicon.ico",
-      // Tamaños disponibles para este icono.
       "sizes": "64x64 32x32 24x24 16x16",
-      // Tipo de archivo del icono.
       "type": "image/x-icon"
     },
     {
       "src": "logo192.png",
-      // Tipo de archivo del icono.
       "type": "image/png",
-      // Tamaño del icono.
       "sizes": "192x192"
     },
     {
       "src": "logo512.png",
-      // Tipo de archivo del icono.
       "type": "image/png",
-      // Tamaño del icono.
       "sizes": "512x512"
     }
   ],
   "start_url": ".",
-  // Modo de visualización de la aplicación, "standalone" significa que se comporta como una aplicación nativa sin barras del navegador.
   "display": "standalone",
-  // Color del tema del navegador
   "theme_color": "#000000",
-  // Color de fondo de la pantalla de inicio al cargar la aplicación.
   "background_color": "#ffffff"
 }
