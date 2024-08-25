@@ -1,8 +1,10 @@
-import React from "react";
-import "./styles/todo.css";
+import React from "react";// Importa la biblioteca React para crear componentes de React.
+import "./styles/todo.css";// Importa el archivo de estilos CSS para aplicar estilos personalizados.
 
+// Componente funcional Todo que recibe tres props: "id" (identificador de la tarea), "task" (descripción de la tarea) y "deleteTodo" (función para eliminar la tarea).
 const Todo = ({id, task, deleteTodo}) => {
     return (
+        // Contenedor div con la clase CSS "item" para estilizar cada tarea.
         <div className="item">
             <li>
                 {task}  <button onClick={() => deleteTodo(id)} className="deleteButton">
@@ -14,4 +16,4 @@ const Todo = ({id, task, deleteTodo}) => {
         </div>
     )
 }
-export default Todo
+export default Todo // Exporta el componente Todo para que pueda ser utilizado en otros archivos.
