@@ -1,7 +1,20 @@
 button{
     cursor: pointer;
+    width: 35px;
+    height: 45px;
+    border-radius: 100px; 
+    margin-left: 10px;
+
 }
 .deleteIcon {
     width: 20px;
     height: 20px;
+    
+}
+
+.list {
+  
+    font-size: 25px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
