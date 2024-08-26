@@ -1,4 +1,17 @@
 .addIcon{
     width: 20px;
     height: 20px;
+    
+    
 }
+
+.addItem input[type="text"] {
+    border: 2px solid #000000; 
+    border-radius: 4px; 
+    padding: 10px; 
+    font-size: 16px; 
+    color: #ffffff; 
+    background-color: #000000; /* Color de fondo del campo de texto */
+    transition: border-color 0.3s ease; /* Transición suave para el cambio de color */
+}
+
